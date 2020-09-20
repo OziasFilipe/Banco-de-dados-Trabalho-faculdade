@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="91210924-5424-3C41-E90D-7510F62F6A05" name="adocao">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<engineerTo>
+<item key="1EDF4940-A077-89FF-03AA-76DAF6999668" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_adocao" id="39E0FE44-5026-47ED-BB55-AC709213ED86">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>9C8E8AC2-0BF9-898B-36DA-F0FB90545835</importedID>
+<engineerTo>
+<item key="1EDF4940-A077-89FF-03AA-76DAF6999668" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data requisicao" id="D1C1B7E7-E706-B437-6EF7-C7424338D992">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>FB3FD02C-3706-3AC9-4727-3C703F564069</importedID>
+<engineerTo>
+<item key="1EDF4940-A077-89FF-03AA-76DAF6999668" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data adocao" id="310590F1-0900-4B81-5931-AF11BF74F2C9">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>FBDE8718-7E19-335D-1774-FC62AFB9708E</importedID>
+<engineerTo>
+<item key="1EDF4940-A077-89FF-03AA-76DAF6999668" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="FC23A01F-F056-CBE0-32B8-89B843398B12">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>07447C40-9A62-5797-6908-AE746EA51024</importedID>
+<engineerTo>
+<item key="1EDF4940-A077-89FF-03AA-76DAF6999668" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="relatorio" id="6DFC472F-DF9F-9EBD-F5EF-DF914772D8CD">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>D9C88EEA-1E45-AE83-BB2F-97E9A8C442F6</importedID>
+<engineerTo>
+<item key="1EDF4940-A077-89FF-03AA-76DAF6999668" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10000</dataTypeSize>
+<ownDataTypeParameters>10000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pet" id="3EA29D66-E5C0-F87B-02D0-5435C5375787">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 11:51:14 UTC</createdTime>
+<generatorID>114B4DC6-FD5E-034A-B6CA-2AAD2D903AE5</generatorID>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<engineerTo>
+<item key="1EDF4940-A077-89FF-03AA-76DAF6999668" value="true"/>
+</engineerTo>
+<referedAttribute>FE9BEB7B-7145-CF53-C795-B6340E3F8CAF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A485D587-A86A-2ED1-091F-F9ADB35F1A5E" name="adocao_PK">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1EDF4940-A077-89FF-03AA-76DAF6999668" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>39E0FE44-5026-47ED-BB55-AC709213ED86</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

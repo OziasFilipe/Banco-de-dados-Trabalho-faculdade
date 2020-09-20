@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="67008E68-477B-5E7A-4BD3-99EF61FABEE7" containerWithKeyObject="184A21D3-EE47-70C2-6F67-7710E12E177F" localFKIndex="CBD7CE80-6B31-04CF-519E-5955B3F6822E" name="Adocoes_Adotantes_FK">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:52:40 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<referredTableLongName>Adotantes</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8A228420-C455-A39A-BEB3-693566D0FEC8</referredTableID>
+<keyObject>AC044920-F000-976B-33FF-7519C0EFED5B</keyObject>
+<referredKeyID>AC044920-F000-976B-33FF-7519C0EFED5B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>email_adotante</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

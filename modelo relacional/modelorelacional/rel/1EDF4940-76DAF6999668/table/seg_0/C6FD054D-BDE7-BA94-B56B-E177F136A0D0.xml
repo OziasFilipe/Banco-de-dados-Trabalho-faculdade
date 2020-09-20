@@ -1,0 +1,179 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6FD054D-BDE7-BA94-B56B-E177F136A0D0" name="Humanos">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:24:51 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nome" id="DA62CBC5-7DDE-9553-1C99-70EEFB7EB46A">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:32:22 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sobrenome" id="06291336-4BAB-5EC4-3633-80FB71D17639">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:32:22 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="744EB7E0-20C2-9EE5-376B-C65025614F38">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:32:22 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha" id="20C74B97-B9CF-4969-5093-60FE75970CFC">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:32:22 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="63FCC416-AB4F-6493-0FBE-0D21019EEC9F">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:32:22 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="1185DFDA-1B11-8601-44F9-0559AD0BB63F">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:32:22 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datanascimento" id="86D3C666-8F5B-3E27-23F1-ECEA20B962F9">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:32:22 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rendamensal" id="22CE0FB4-35B8-32A0-2509-8860DAD1D5EB">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:32:22 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cep" id="8F3857C5-F45B-BEFD-E36A-31C7350B1BA5">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:32:22 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomerua" id="9EBE5362-1F95-9D06-9CCA-D4849BF42043">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:32:22 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numeromoradia" id="9F02FBC5-C4B8-1E6A-4A02-15F0FC85BD2A">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:32:22 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipomoradia" id="3CC93DB6-D580-B339-5867-7FC66B2555E4">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:32:22 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomemoradia" id="0CC4F693-1306-D032-02C1-71A32F57E364">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:32:22 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complemento" id="35A6E352-ACF9-147E-E751-B8C89378DEAF">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:32:22 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96F865A8-06B4-C7A1-5D29-C04D2CA32898" name="Humanos_PK">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:32:22 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="744EB7E0-20C2-9EE5-376B-C65025614F38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

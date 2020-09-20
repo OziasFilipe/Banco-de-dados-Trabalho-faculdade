@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E345CE90-102A-AD17-BFAD-9F400B4EF53F" name="Pets">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:46:02 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pet" id="E8F8A968-5293-87EF-DA67-ADEE0FBF58D6">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:49:00 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="5F2EE92C-1645-40E9-73A3-96BA28CC488F">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:49:00 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idade" id="8B1A095E-19CB-3733-AF2D-608B796BC076">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:49:00 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="especie" id="5E9B9289-5BED-C77E-39D2-B5AF1DB371D3">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:49:00 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="raca" id="413E14B3-A445-1900-BA90-C58F4B58E21C">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:49:00 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tamanho_cm" id="A7BA0049-78A5-2C21-41DE-29547A515344">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:49:00 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="peso_gram" id="403C7981-FAAA-3514-B116-B5B21B2D2545">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:49:00 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="personalidade" id="559F9DC4-2710-4D8A-766C-555E7F7A6993">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:49:00 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adaptabilidade" id="80FAA438-080F-45A3-32A0-EF0A40BAF92E">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:49:00 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ajudante_email" id="8DE96419-0225-4F34-530D-50E19C27F6A0">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:49:04 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F4B464B-A997-FFB0-E8CB-48DE739E8297" referredColumn="AF0AF622-5AD2-7153-EF85-BC6213A24E11"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A3D3D2CB-0346-BB64-913A-AED551CB9AD9" name="Pets_PK">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:49:00 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8F8A968-5293-87EF-DA67-ADEE0FBF58D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B26E9B00-2DFD-D005-A3F1-C5288A1B6F3D" name="Pets_Ajudantes_FK">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:49:04 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DE96419-0225-4F34-530D-50E19C27F6A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

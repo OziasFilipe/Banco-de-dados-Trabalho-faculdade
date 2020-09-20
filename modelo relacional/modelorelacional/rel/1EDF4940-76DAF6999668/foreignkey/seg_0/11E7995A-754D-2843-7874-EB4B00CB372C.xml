@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="11E7995A-754D-2843-7874-EB4B00CB372C" containerWithKeyObject="8A228420-C455-A39A-BEB3-693566D0FEC8" localFKIndex="60479BF6-DDF1-9744-0F33-310E34458D76" name="Adotantes_Humanos_FK">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:33:34 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<referredTableLongName>Humanos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C6FD054D-BDE7-BA94-B56B-E177F136A0D0</referredTableID>
+<keyObject>96F865A8-06B4-C7A1-5D29-C04D2CA32898</keyObject>
+<referredKeyID>96F865A8-06B4-C7A1-5D29-C04D2CA32898</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>email</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

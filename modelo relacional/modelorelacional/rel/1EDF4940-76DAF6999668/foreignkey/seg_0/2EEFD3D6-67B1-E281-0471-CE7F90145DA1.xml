@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2EEFD3D6-67B1-E281-0471-CE7F90145DA1" containerWithKeyObject="0FF32136-6CC9-621A-0837-EBF601089F4D" localFKIndex="6BBBC2CB-D463-120C-8893-46178A69E3BE" name="Contatos_Moderadores_FK">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 12:44:48 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<referredTableLongName>Moderadores</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F484FCEA-F3FB-8DCC-2BF7-7B46D0267AFD</referredTableID>
+<keyObject>825C41FF-36CC-6BFA-6840-0ADC58C31529</keyObject>
+<referredKeyID>825C41FF-36CC-6BFA-6840-0ADC58C31529</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>email_moderador</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

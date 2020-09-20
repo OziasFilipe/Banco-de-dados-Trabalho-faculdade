@@ -1,0 +1,29 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="33FC5F08-4584-E129-F68F-2C6F0C99C475" name="ajudante">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<engineerTo>
+<item key="1EDF4940-A077-89FF-03AA-76DAF6999668" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>F0DB73C0-CFD2-04BB-1900-0A0DE6FAA855</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6B0176D9-1605-F27A-632C-1AEFE2C331B9" name="ajudante PK">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<engineerTo>
+<item key="1EDF4940-A077-89FF-03AA-76DAF6999668" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

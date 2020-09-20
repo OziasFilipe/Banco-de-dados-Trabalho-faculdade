@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="21C99CCF-9E2D-590E-3043-93C8B4EA8E53" name="contato">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<engineerTo>
+<item key="1EDF4940-A077-89FF-03AA-76DAF6999668" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_contato" id="FC0AF000-1208-F56E-9802-66C19F1C3001">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>99E57851-BFB0-C56F-A7E3-6FA9526D227A</importedID>
+<engineerTo>
+<item key="1EDF4940-A077-89FF-03AA-76DAF6999668" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="motivo" id="63C9ED7B-533E-A2EC-C967-B03B416EABBB">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>44D32D77-E884-E754-EA98-3AD6B4BA84D7</importedID>
+<engineerTo>
+<item key="1EDF4940-A077-89FF-03AA-76DAF6999668" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datainicio" id="778C6133-8373-6BC8-BF18-388A97AE6ECB">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>552B65E9-D174-E9CA-8389-659B97413ADB</importedID>
+<engineerTo>
+<item key="1EDF4940-A077-89FF-03AA-76DAF6999668" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datafim" id="B66135C5-1575-D796-1878-9CEA6F9E8DBD">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>AEDD8550-168B-7645-6ACB-9EFA75E45D60</importedID>
+<engineerTo>
+<item key="1EDF4940-A077-89FF-03AA-76DAF6999668" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="relatorio" id="E706FC62-BF8A-4643-A732-B0E198BF29E9">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>9B78400F-5C11-7DBA-DF72-D5207BF19BCF</importedID>
+<engineerTo>
+<item key="1EDF4940-A077-89FF-03AA-76DAF6999668" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10000</dataTypeSize>
+<ownDataTypeParameters>10000,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7AEA704C-9D8A-7677-C0B9-88103B726035" name="contato PK">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1EDF4940-A077-89FF-03AA-76DAF6999668" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FC0AF000-1208-F56E-9802-66C19F1C3001</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
