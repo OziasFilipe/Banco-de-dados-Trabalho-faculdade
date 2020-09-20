@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="23803EE6-DA6A-CF7E-3E5C-E2DDEB3C7937">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:35 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

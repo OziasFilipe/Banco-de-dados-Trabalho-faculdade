@@ -1,0 +1,181 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F0DB73C0-CFD2-04BB-1900-0A0DE6FAA855" name="humano">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="9E54EFA2-1724-C0BA-FF3F-3678FD7172A8">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<importedID>31519E16-791A-5EF8-118E-646A416A3AB1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sobrenome" id="8B433FC6-DBCD-7D41-7B6B-54742D4B5366">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<importedID>634AC549-ADE9-7217-2981-0CF9F36846BF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="571E49E5-6DD1-D74F-FC85-5D63D58A32D9">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<importedID>EC336DB9-F755-6B46-44CF-1CF08E5CF3B0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="senha" id="7896FD6D-10B8-945E-1106-1E61690781AE">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<importedID>96E2D4F9-F988-1FF7-38FF-48E59028BB5E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="241AFB84-8AF0-EA34-F6E5-8C3574A3C855">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<importedID>EADE5641-171E-ACE7-F062-76151FD4C5D2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="1FB8C43A-6336-9D75-875A-3C8E1D2A68AB">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<importedID>76B392EA-36FD-9D38-222E-5FD3EC538E4F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datanascimento" id="42DB11CF-584A-6581-4391-93176491FF3D">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<importedID>133B51AE-D439-03B1-8F98-25ABF33ED2E6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rendamensal" id="9C05ED8B-6020-2EDA-9F03-2265FF15425D">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<importedID>B8839840-5E29-B044-B6FE-A247464EA8A6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep" id="A6089CA4-7509-A240-9BE8-4C9968814182">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<importedID>509BF4DA-676C-0086-2051-DD58795D43A3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomerua" id="158FBB3B-8700-4142-F413-C674470DBC1C">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<importedID>A4AC087D-494C-E438-1AE8-2047316FC37C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeromoradia" id="A599ED2B-25D3-F24D-F3AB-14937939AC0F">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<importedID>83C694AB-3201-5D30-B177-C6A9549F3577</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipomoradia" id="DD06531F-8B4C-9A92-7441-DE54C8533D44">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<importedID>EE200BB4-1729-246D-6180-E398B9947D2A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomemoradia" id="5A4C1D6B-476A-A62F-7CF9-D25D2B810D5F">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<importedID>F689C38F-B6EB-00A8-22C0-02A7FDA640D6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complemento" id="203B21DB-10EC-393A-1AAF-701C8EEC6C9C">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<importedID>3868FFFD-66FA-1432-EB3F-A4A2DE10E8EC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BA176C24-E128-762D-F951-CC8BBECB6AEC" name="adotante PK">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-06-17 10:55:39 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>571E49E5-6DD1-D74F-FC85-5D63D58A32D9</attributeRef>
+<attributeRef>241AFB84-8AF0-EA34-F6E5-8C3574A3C855</attributeRef>
+<attributeRef>1FB8C43A-6336-9D75-875A-3C8E1D2A68AB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
