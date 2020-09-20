@@ -1,0 +1,29 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9EEF3F21-44CB-AA51-0D31-8C9BC2FEE0F5" name="moderador">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:39:24 UTC</createdTime>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<engineerTo>
+<item key="94EC987B-C421-CEB1-6AA6-5C4D9121D20B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>25611D71-4E3F-B80C-E01C-10778DF735DB</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B0670FC2-0554-AC6A-9080-2DC2FC6DE6DF" name="moderador PK">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:39:24 UTC</createdTime>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<engineerTo>
+<item key="94EC987B-C421-CEB1-6AA6-5C4D9121D20B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

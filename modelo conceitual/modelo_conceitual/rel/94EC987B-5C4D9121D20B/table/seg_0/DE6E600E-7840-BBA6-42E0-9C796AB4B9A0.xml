@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE6E600E-7840-BBA6-42E0-9C796AB4B9A0" name="contato">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>9D92516F-36FE-3913-F9D3-AF701B86AABB</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="5CC32E0D-2752-69C6-2A8D-8AC28B45A7A2">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>376A7388-B65F-D9E9-604C-E85BE68AEA87</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="motivo" id="CEADAB05-B1AF-1267-F05A-8AB5389791A7">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>E50E15EB-E82C-033E-E563-A16440DE6419</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datainicio" id="B249E6DE-120C-E591-A0BB-A874CBECA579">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>62316090-A68A-BFC8-803B-ED1256FBF141</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datafim" id="250E7F53-F014-65DF-BB20-480DAB053390">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>5E3ED0D3-CC0A-17A8-D7F3-1B70CE1C55E6</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="relatorio" id="1981D0C2-4B62-7944-69C7-4EE2559328E0">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>DC24CC47-8F28-1B07-D5D7-8474D9672CC3</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="moderador_email" id="9B98FD72-126C-F7B0-3D23-CA2A07F4F70D">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>09C7CF6A-983B-E939-CE30-AACEF35DC891</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6A61FD8-EC14-EA07-EE44-FC8F6F01EDA4" referredColumn="BB3F1647-651F-9092-38ED-2D3D15B886E6"/>
+</associations>
+</Column>
+<Column name="moderador_cpf" id="D1243CAD-C260-9575-3E22-A405029D58A0">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>8CC9AE8F-507D-4A8C-756E-E96C75AA70D8</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6A61FD8-EC14-EA07-EE44-FC8F6F01EDA4" referredColumn="4C760E72-4113-F805-87B6-64F50FD5DBA5"/>
+</associations>
+</Column>
+<Column name="adotante_id" id="13544851-AF8D-969C-9BCA-E774234BFC2E">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>45CB3905-87F8-72CC-5E1D-5D2594B80AD8</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="366DB943-D98C-D495-6894-9098159AC2F1" referredColumn="399C1110-BA2D-8684-4359-F69DD32666FA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="049F5194-7737-5FC3-FE85-D491B5528E3F" name="contato_PK">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>ACA5FCB1-46BF-D7C8-404B-B78EF07D74F4</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CC32E0D-2752-69C6-2A8D-8AC28B45A7A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2DBA578-4AF6-F47D-C4A4-3AE84023290F" name="contato_adotante_FK">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>A6F50C90-7D68-7A0C-28E3-BAF417C1657E</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13544851-AF8D-969C-9BCA-E774234BFC2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8B6A6E6-8182-4323-8950-942B01D36297" name="contato_moderador_FK">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>95C17157-2325-5EDF-119A-F70A83C7FB4A</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B98FD72-126C-F7B0-3D23-CA2A07F4F70D"/>
+<colUsage columnID="D1243CAD-C260-9575-3E22-A405029D58A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

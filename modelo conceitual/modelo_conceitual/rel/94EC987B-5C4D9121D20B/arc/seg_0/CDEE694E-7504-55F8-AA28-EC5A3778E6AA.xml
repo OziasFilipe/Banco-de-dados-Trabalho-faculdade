@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="CDEE694E-7504-55F8-AA28-EC5A3778E6AA" name="FKArc_1">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>14818BC4-B988-9570-9BEA-DE5DDA394297</table>
+<fkeys>
+<fkeyID>3EAAFDA7-3DD1-242A-6B82-78D8EE8AAE00</fkeyID>
+<fkeyID>CBDABE04-C5E6-0F62-F438-32D28058B34C</fkeyID>
+<fkeyID>2391B53C-74CB-3B1E-011B-8CDD53E7A7AD</fkeyID>
+</fkeys>
+</FKArc>

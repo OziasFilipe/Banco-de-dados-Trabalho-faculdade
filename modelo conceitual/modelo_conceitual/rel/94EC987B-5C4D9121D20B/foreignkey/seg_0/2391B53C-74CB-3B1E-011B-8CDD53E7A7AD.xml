@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2391B53C-74CB-3B1E-011B-8CDD53E7A7AD" containerWithKeyObject="015036BA-78E5-82B4-DFB6-4DE7BE5F2A03" localFKIndex="66861069-945F-A90F-30A4-750D05348933" name="moderador_humano_FK">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>4E7AA10E-37DB-E6A1-A88E-DE9202187119</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<referredTableLongName>humano</referredTableLongName>
+<arc>CDEE694E-7504-55F8-AA28-EC5A3778E6AA</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>14818BC4-B988-9570-9BEA-DE5DDA394297</referredTableID>
+<keyObject>84077BA9-7A65-F4E1-873C-63250939F895</keyObject>
+<referredKeyID>84077BA9-7A65-F4E1-873C-63250939F895</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>email,cpf</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

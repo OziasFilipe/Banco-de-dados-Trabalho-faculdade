@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pet ajudante FK" directorySegmentName="seg_0" id="F98821CC-4ACB-A945-F049-6B9C217133F6">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:39:24 UTC</createdTime>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<engineerTo>
+<item key="94EC987B-C421-CEB1-6AA6-5C4D9121D20B" value="true"/>
+</engineerTo>
+<targetPk>7F0B5A66-8BE4-8183-18C7-0E3E1CEA587F</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>815D601A-A849-A1A0-76AA-6022C17FF517</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>6193AD82-50CD-031C-B539-5E77AB856086</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

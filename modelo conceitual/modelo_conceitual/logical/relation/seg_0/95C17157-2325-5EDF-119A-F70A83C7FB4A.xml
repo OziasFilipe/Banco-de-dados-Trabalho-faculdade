@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="contato moderador FK" directorySegmentName="seg_0" id="95C17157-2325-5EDF-119A-F70A83C7FB4A">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:39:24 UTC</createdTime>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<engineerTo>
+<item key="94EC987B-C421-CEB1-6AA6-5C4D9121D20B" value="true"/>
+</engineerTo>
+<sourcePk>4DDDDB84-1F87-C7FD-7794-7839E5598C7D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9EEF3F21-44CB-AA51-0D31-8C9BC2FEE0F5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9D92516F-36FE-3913-F9D3-AF701B86AABB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

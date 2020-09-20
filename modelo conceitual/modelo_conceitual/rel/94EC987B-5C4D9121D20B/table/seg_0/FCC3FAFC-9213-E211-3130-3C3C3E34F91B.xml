@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCC3FAFC-9213-E211-3130-3C3C3E34F91B" name="foto_pet">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>5921E2E1-BBDB-EE66-C69F-2334552AC478</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E3C74995-98E1-5BBB-B43C-9019A66C699C">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>02C78DDF-9519-5CD7-1AC2-638B3D318B65</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="link" id="EA98D090-304A-DD45-7B2B-B3E6C97EF148">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>B99DBF41-750F-27C4-3C9B-9E27D6C06277</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pet_id" id="46C3D66B-7F71-6485-5499-41BFF4992BA9">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>CDA12BE6-5DEC-DDD2-095A-139A65FDBB20</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="631608F2-F3E4-91F6-ED90-B86D963A22EC" referredColumn="184D34AF-A7C7-D575-0412-2E40B56F4632"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CBA1A9ED-7B6B-7F46-EB81-460F4BD457CE" name="foto_pet_PK">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>B6E8CB1E-A1F5-81F3-FE68-B4114F74DD24</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3C74995-98E1-5BBB-B43C-9019A66C699C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3499D04B-E6E4-8FCE-79C0-3F1BB2733BC6" name="foto_pet_pet_FK">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>FB7543AE-8E9C-DC27-56C0-7F9F467903E3</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46C3D66B-7F71-6485-5499-41BFF4992BA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

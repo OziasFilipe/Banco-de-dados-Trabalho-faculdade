@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="adocao adotante FK" directorySegmentName="seg_0" id="A1B33086-3EBC-419D-1D8C-3C37D9942880">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:39:24 UTC</createdTime>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<engineerTo>
+<item key="94EC987B-C421-CEB1-6AA6-5C4D9121D20B" value="true"/>
+</engineerTo>
+<sourcePk>4DDDDB84-1F87-C7FD-7794-7839E5598C7D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FE8AC840-A8D6-F5F9-0825-CC7C03DAEE2A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E3F0281E-27CB-5C6D-0497-B2C09B3AA418</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

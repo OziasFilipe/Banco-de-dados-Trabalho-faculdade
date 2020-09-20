@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="foto pet pet FK" directorySegmentName="seg_0" id="FB7543AE-8E9C-DC27-56C0-7F9F467903E3">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:39:24 UTC</createdTime>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<engineerTo>
+<item key="94EC987B-C421-CEB1-6AA6-5C4D9121D20B" value="true"/>
+</engineerTo>
+<sourcePk>B6E8CB1E-A1F5-81F3-FE68-B4114F74DD24</sourcePk>
+<targetPk>428407E8-6CA2-0696-93B6-71C0C9FB7995</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5921E2E1-BBDB-EE66-C69F-2334552AC478</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>815D601A-A849-A1A0-76AA-6022C17FF517</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

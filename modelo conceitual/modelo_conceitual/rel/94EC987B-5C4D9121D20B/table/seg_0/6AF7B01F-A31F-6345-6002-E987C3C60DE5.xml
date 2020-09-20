@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6AF7B01F-A31F-6345-6002-E987C3C60DE5" name="pet">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>815D601A-A849-A1A0-76AA-6022C17FF517</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="184D34AF-A7C7-D575-0412-2E40B56F4632">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>5EC98C57-E513-7876-116C-3CB43071EDDC</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="3BEBF5DE-B59E-EE93-A089-EE6CB0B81677">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>D6885EC7-4CE6-ED5B-0B83-3A96BE0FE794</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="espécie" id="4F35A97A-48FF-ED3F-0F2F-48EAC96C733B">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>355FF761-53E5-A708-B3EE-1F0D43EA2F69</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="raça" id="F31B1E99-65FC-CEDE-E954-03CFA678245C">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>6BBE2D90-ECAE-2752-9AEE-758698B53B99</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tamanho" id="35D87DC9-AECC-C4BA-95D4-B0A19846A365">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>BC47D112-D97D-2D78-F807-AE434E9295BA</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="peso" id="D3EF241E-B898-1585-A5F0-C33569E921B5">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>C2637F67-B06F-7D2D-704F-23FB2125C232</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="personalidade" id="8582D3BD-9506-1F49-434B-7BCBF91FA7EF">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>50C95A5D-AD1D-8877-AAA0-E6297F6205A3</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adaptabilidade" id="3A164296-45F3-4B62-24AC-F166CF8E9F44">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>357D4440-312A-5FAC-50AC-8CEDCA6CECEC</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ajudante_id" id="69EED807-03F5-F9CE-EDEF-DB3A93B600F4">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>CEF8133C-DC1B-1B19-1FE4-4F2CE64F56D4</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B71BAF8E-E213-21A4-0945-C896A6056211" referredColumn="1930F2CE-46E7-9501-E62D-F12F0786C45E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="302FC08B-573C-0B27-E108-B4BB9C952A97" name="pet_PK">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>428407E8-6CA2-0696-93B6-71C0C9FB7995</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="184D34AF-A7C7-D575-0412-2E40B56F4632"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E83A9389-B099-F1C0-17B8-BAE8A20655B9" name="pet_ajudante_FK">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>F98821CC-4ACB-A945-F049-6B9C217133F6</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69EED807-03F5-F9CE-EDEF-DB3A93B600F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

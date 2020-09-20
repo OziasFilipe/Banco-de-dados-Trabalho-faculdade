@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07809C01-1913-11A1-0C45-0391F35E5A83" name="adotante">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>FE8AC840-A8D6-F5F9-0825-CC7C03DAEE2A</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="399C1110-BA2D-8684-4359-F69DD32666FA">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>2392E02C-95A6-D91F-44FD-76AEEE9FEB79</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="4698A84D-E17E-7767-7102-800E73D7FDDE">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>5F328EDE-E757-3F62-193A-EB05BEA02963</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3EAAFDA7-3DD1-242A-6B82-78D8EE8AAE00" referredColumn="BD0C7AC2-949E-F76E-A529-38889DCC6BFD"/>
+</associations>
+</Column>
+<Column name="email" id="3332AAEF-F8F3-5C76-58E3-EBA3D1A1DAA2">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>68D14BCC-BB47-E98E-8A5D-45D80F43F5AD</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3EAAFDA7-3DD1-242A-6B82-78D8EE8AAE00" referredColumn="7DAB62B6-8015-79FF-EC6F-5985A1F028B6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD3A95EF-F52D-1531-1742-DD77439F957F" name="adotante_PK">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>4DDDDB84-1F87-C7FD-7794-7839E5598C7D</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3332AAEF-F8F3-5C76-58E3-EBA3D1A1DAA2"/>
+<colUsage columnID="4698A84D-E17E-7767-7102-800E73D7FDDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF6D327E-8EC9-4418-3381-FE1B5C214D76" name="adotante_PKv1">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>48C405BC-2E38-7F0E-D123-3E2C53759C39</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="399C1110-BA2D-8684-4359-F69DD32666FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="356BB78B-DDAB-1C74-5BC7-85604183BAA2" name="adotante_humano_FK">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>79D45F38-3129-73DD-0233-03CDA295B1A0</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3332AAEF-F8F3-5C76-58E3-EBA3D1A1DAA2"/>
+<colUsage columnID="4698A84D-E17E-7767-7102-800E73D7FDDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

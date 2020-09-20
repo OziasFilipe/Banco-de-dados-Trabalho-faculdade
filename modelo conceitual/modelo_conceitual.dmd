@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelo_conceitual" id="2D9D62DA-2014-4161-7725-92CD6BEE503C" version="3.5">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:39:04 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2D9D62DA-2014-4161-7725-92CD6BEE503C</designId>
+</OSDM_Design>

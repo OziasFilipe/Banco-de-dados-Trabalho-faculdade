@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AFE0A945-2AA0-A419-24DB-131A6F37F81B" containerWithKeyObject="0E907694-0431-1395-F6FB-0E5EACA9F668" localFKIndex="18EB9432-5F9A-6382-58A4-48FC2C546AB5" name="adocao_moderador_FK">
+<createdBy>flpoc</createdBy>
+<createdTime>2020-05-07 18:40:11 UTC</createdTime>
+<generatorID>7576C4D3-07DE-0C50-1D33-2CEC468799A8</generatorID>
+<ownerDesignName>modelo_conceitual</ownerDesignName>
+<referredTableLongName>moderador</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>015036BA-78E5-82B4-DFB6-4DE7BE5F2A03</referredTableID>
+<keyObject>B38CE440-60B1-2CF0-718B-01CA0F6F7F28</keyObject>
+<referredKeyID>B38CE440-60B1-2CF0-718B-01CA0F6F7F28</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>email,cpf</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
